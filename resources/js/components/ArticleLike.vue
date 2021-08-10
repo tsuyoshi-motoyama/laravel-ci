@@ -42,7 +42,7 @@
     methods: {
       clickLike() {
         if (!this.authorized) {
-          alert('いいね機能はログイン中のみ使用できます')
+          alert('いいね機能はログイン中のみ使用できます!')
           return
         }
 
